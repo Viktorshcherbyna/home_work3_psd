@@ -8,11 +8,29 @@ li {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#header-nav ul {
+header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    background-image: url(img/layer3.png);
+    background-size: cover;
+}
+
+#header {
+    max-width: 1024px;
+    /*background-image: url(img/layer3.png);
+    background-size: cover;
+    max-width: 100%;*/
+}
+
+#header #header-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-text {
+    text-align: center;
 }
